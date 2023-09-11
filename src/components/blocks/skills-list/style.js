@@ -1,28 +1,29 @@
 import { styled } from 'styled-components';
-import { Link } from 'react-router-dom';
 
-export const MyWorksStyled = styled.section`
+export const SkillsStyled = styled.section`
   display: block;
-  background-color: #fafafa;
+  background-color: #fff;
   box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
 `;
 
-export const MyWorksWrapperStyled = styled.div`
+export const SkillsWrapperStyled = styled.div`
   padding: 30px 0 70px 0;
   margin: 0 auto;
   max-width: 1040px;
 `;
 
-export const MyWorksListStyled = styled.ul`
+export const SkillsListStyled = styled.ul`
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  gap: 20px 0;
-  margin: 30px 0 0;
+  gap: 10px 0;
+  margin: 30px auto 0;
   padding: 0;
+  width: 800px;
 `;
 
-export const MyWorksItemStyled = styled.li`
+export const SkillsItemStyled = styled.li`
   padding: 0;
   list-style-type: none;
   background-color: #fff;
@@ -34,12 +35,7 @@ export const MyWorksItemStyled = styled.li`
   }
 `;
 
-export const MyWorksLinkStyled = styled(Link)`
-  text-decoration: none;
-  color: inherit;
-`;
-
-export const MyWorksHeadingWrapperStyled = styled.div`
+export const SkillsHeadingWrapperStyled = styled.div`
   margin: 0 auto;
   width: max-content;
   position: relative;

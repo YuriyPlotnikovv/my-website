@@ -1,6 +1,7 @@
 import { TitleStyled } from './style';
 
 export const TitleSize = {
+  EXTRABIG: 'extrabig',
   BIG: 'big',
   MEDIUM: 'medium',
   SMALL: 'small',

@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const StyledFooter = styled.footer`
-  display: flex;
   background-color: #f5f5f5;
   color: #333;
   box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
@@ -9,10 +8,11 @@ export const StyledFooter = styled.footer`
 
 export const StyledFooterWrapper = styled.div`
   display: flex;
+  flex-wrap: wrap;
   box-sizing: border-box;
   align-items: center;
   justify-content: space-between;
-  width: 1040px;
+  max-width: 1040px;
   margin: 0 auto;
   padding: 0 10px;
 `;

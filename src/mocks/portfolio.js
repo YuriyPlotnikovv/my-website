@@ -19,6 +19,7 @@ const portfolioList = [
       ],
     },
     logo: sedona,
+    to: 'sedona',
     link: 'https://gregarious-cannoli-38ccfd.netlify.app',
   },
   {
@@ -36,6 +37,7 @@ const portfolioList = [
       ],
     },
     logo: catenergy,
+    to: 'catenergy',
     link: 'https://precious-chimera-27ad7c.netlify.app',
   },
   {
@@ -53,6 +55,7 @@ const portfolioList = [
       ],
     },
     logo: kekstagram,
+    to: 'kekstagram',
     link: 'https://joyful-crisp-07726d.netlify.app',
   },
   {
@@ -70,10 +73,29 @@ const portfolioList = [
       ],
     },
     logo: farmerproducts,
+    to: 'farmerproducts',
     link: 'https://peppy-jelly-63aca8.netlify.app',
   },
   {
     id: 4,
+    title: 'Мой сайт',
+    text: 'Проект на ReactJs',
+    description: {
+      level: 'Medium',
+      text: 'Проект моего личного сайта-резюме.',
+      images: [
+        {
+          id: 0,
+          link: '/',
+        },
+      ],
+    },
+    logo: '/',
+    to: '/',
+    link: '/',
+  },
+  {
+    id: 5,
     title: 'Киноман',
     text: 'Проект на ReactJs',
     description: {
@@ -87,6 +109,7 @@ const portfolioList = [
       ],
     },
     logo: '/',
+    to: '/',
     link: '/',
   },
 ];
