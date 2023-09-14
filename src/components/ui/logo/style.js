@@ -15,5 +15,5 @@ export const StyledLogo = styled(Link)`
 
 export const StyledImg = styled.img`
   width: auto;
-  height: 55px;
+  height: 70px;
 `;

@@ -1,7 +1,6 @@
 import Intro from '../../blocks/intro/intro';
 import { StyledContacts } from './style';
 import image from '../../../assets/myPhoto.png';
-import Links from '../../blocks/social-links/social-links';
 import Mail from '../../blocks/mail-form/mail-form';
 
 export default function Contacts() {

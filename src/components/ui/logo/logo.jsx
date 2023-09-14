@@ -1,4 +1,4 @@
-import logo from '../../../assets/logo.svg';
+import logo from '../../../assets/icons/icon-logo.svg';
 import { StyledImg, StyledLogo } from './style';
 
 export default function Logo() {

@@ -2,6 +2,7 @@ import sedona from '../assets/portfolio/logo-sedona.png';
 import catenergy from '../assets/portfolio/logo-catenergy.png';
 import kekstagram from '../assets/portfolio/logo-kekstagram.png';
 import farmerproducts from '../assets/portfolio/logo-farmerproducts.png';
+import mysite from '../assets/portfolio/logo-mySite.png';
 
 const portfolioList = [
   {
@@ -90,7 +91,7 @@ const portfolioList = [
         },
       ],
     },
-    logo: '/',
+    logo: mysite,
     to: '/',
     link: '/',
   },
