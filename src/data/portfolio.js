@@ -3,6 +3,7 @@ import catenergy from '../assets/portfolio/logo-catenergy.png';
 import kekstagram from '../assets/portfolio/logo-kekstagram.png';
 import farmerproducts from '../assets/portfolio/logo-farmerproducts.png';
 import mysite from '../assets/portfolio/logo-mySite.png';
+import kinoman from '../assets/portfolio/logo-kinoman.png';
 
 const portfolioList = [
   {
@@ -109,7 +110,7 @@ const portfolioList = [
         },
       ],
     },
-    logo: '/',
+    logo: kinoman,
     to: '/',
     link: '/',
   },
