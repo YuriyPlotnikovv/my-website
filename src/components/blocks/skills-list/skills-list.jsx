@@ -1,7 +1,7 @@
 import Title from '../../ui/title/title';
 import { SkillsHeadingWrapperStyled, SkillsListStyled, SkillsItemStyled, SkillsStyled, SkillsWrapperStyled } from './style';
 import SkillsCard from '../skills/skills-card';
-import skillsList from '../../../mocks/skills';
+import skillsList from '../../../data/skills';
 
 export default function Skills() {
   return (

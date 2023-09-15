@@ -1,34 +1,18 @@
 import Button from '../../ui/button/button';
-import { StyledLinksIcon, StyledLinksItem, StyledLinksList } from './style';
+import { StyledLinksItem, StyledLinksList, HandySvgStyled } from './style';
 
-import vk from '../../../assets/icons/icon-vk.svg';
-import telegram from '../../../assets/icons/icon-telegram.svg';
-import instagram from '../../../assets/icons/icon-instagram.svg';
-import github from '../../../assets/icons/icon-github.svg';
+import iconsList from '../../../data/icons';
 
-export default function Links() {
+export default function Links({$color, $size, $start, $length}) {
   return (
     <StyledLinksList>
-      <StyledLinksItem>
-        <Button href='https://vk.com/yuriy.plotnikovv'>
-          <StyledLinksIcon src={vk} alt='VK'/>
+      {iconsList.slice($start, $length).map((icon) => (
+      <StyledLinksItem key={icon.id}>
+        <Button href={icon.url}>
+          <HandySvgStyled $color={$color} $size={$size} src={icon.image} alt={icon.title} />
         </Button>
       </StyledLinksItem>
-      <StyledLinksItem>
-        <Button href='https://t.me/yuriyplotnikovv'>
-          <StyledLinksIcon src={telegram} alt='Telegram'/>
-        </Button>
-      </StyledLinksItem>
-      <StyledLinksItem>
-        <Button href='https://instagram.com/yuriy.plotnikovv?igshid=ZGUzMzM3NWJiOQ=='>
-          <StyledLinksIcon src={instagram} alt='Telegram'/>
-        </Button>
-      </StyledLinksItem>
-      <StyledLinksItem>
-        <Button href='https://github.com/YuriyPlotnikovv'>
-          <StyledLinksIcon src={github} alt='GitHub'/>
-        </Button>
-      </StyledLinksItem>
+      ))}
     </StyledLinksList>
   )
 }

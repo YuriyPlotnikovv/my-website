@@ -7,6 +7,7 @@ export const StyledNavigation = styled.nav`
 export const StyledNavList = styled.ul`
   display: flex;
   margin: 0;
+  padding: 0;
   gap: 10px;
 `;
 

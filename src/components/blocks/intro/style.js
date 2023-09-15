@@ -10,8 +10,8 @@ export const IntroWrapperStyled = styled.div`
   display: flex;
   flex-direction: column;
   height: 450px;
-  background-image: url(${(props) => props.image}),
-    url(${(props) => props.background});
+  background-image: url(${(props) => props.$image}),
+    url(${(props) => props.$background});
   background-size: 500px, 900px;
   background-repeat: no-repeat;
   background-position:

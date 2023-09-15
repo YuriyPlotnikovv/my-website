@@ -11,6 +11,11 @@ export const StyledLogo = styled(Link)`
     text-decoration: none;
     opacity: 0.6;
   }
+
+  & .logo {
+    width: 70px;
+    height: 70px;
+  }
 `;
 
 export const StyledImg = styled.img`

@@ -1,6 +1,6 @@
 import { PhotoStyled, PhotoWrapperStyled, PhotoListStyled, PhotoItemStyled, PhotoLinkStyled } from './style';
 import PhotoCard from '../photo-card/photo-card';
-import photoList from '../../../mocks/photo';
+import photoList from '../../../data/photo';
 
 export default function PhotoList() {
   return (

@@ -79,7 +79,7 @@ const portfolioList = [
   },
   {
     id: 4,
-    title: 'Мой сайт',
+    title: 'My website',
     text: 'Проект на ReactJs',
     description: {
       level: 'Medium',

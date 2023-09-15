@@ -1,3 +1,4 @@
+import { HandySvg } from 'handy-svg';
 import styled from 'styled-components';
 
 export const StyledFooter = styled.footer`
@@ -25,10 +26,10 @@ export const StyledIconsCopy = styled.a`
   text-decoration: none;
 `;
 
-export const StyledCopyIcon = styled.img`
+export const StyledCopyIcon = styled(HandySvg)`
   display: block;
   width: 25px;
-  height: auto;
+  height: 25px;
   box-sizing: border-box;
   margin-left: 5px;
 `;

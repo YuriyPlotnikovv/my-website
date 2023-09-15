@@ -28,6 +28,7 @@
     "@babel/core": "^7.22.11",
     "@babel/preset-env": "^7.22.14",
     "eslint": "^8.48.0",
+    "handy-svg": "^1.0.8",
     "prettier": "^3.0.3",
     "swiper": "^10.2.0"
   },

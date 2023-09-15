@@ -1,4 +1,4 @@
-import portfolioList from '../../../mocks/portfolio';
+import portfolioList from '../../../data/portfolio';
 import Title from '../../ui/title/title';
 import PortfolioCard from '../portfolio-card/portfolio-card';
 import { MyWorksStyled, MyWorksItemStyled, MyWorksListStyled, MyWorksWrapperStyled, MyWorksLinkStyled, MyWorksHeadingWrapperStyled } from './style';

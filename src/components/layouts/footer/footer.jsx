@@ -1,7 +1,8 @@
 import Navigation from '../../blocks/navigation/navigation';
 import Button from '../../ui/button/button';
-import { StyledCopyIcon, StyledCopyright, StyledFooter, StyledFooterWrapper, StyledIconsCopy } from './style';
-import copyicons from '../../../assets/icons/icons-autor.svg';
+import { StyledCopyIcon, StyledCopyright, StyledFooter, StyledFooterWrapper } from './style';
+import copyicons from '../../../assets/icons/icons-author.svg';
+import { HandySvg } from 'handy-svg';
 
 export default function Footer() {
   return (
@@ -9,8 +10,8 @@ export default function Footer() {
       <StyledFooterWrapper>
         <StyledCopyright>&#169; 2023 Yuriy Plotnikov</StyledCopyright>
         <Button href='https://icons8.com'>
-          <span>icons by</span>
-          <StyledCopyIcon src={copyicons} />
+          icons by
+          <StyledCopyIcon src={copyicons} alt='Icons8' />
         </Button>
         <Navigation />
       </StyledFooterWrapper>

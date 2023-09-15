@@ -1,5 +1,5 @@
 import { PortfolioItemStyled, PortfolioLinkStyled, PortfolioListStyled, PortfolioStyled, PortfolioWrapperStyled } from './style';
-import portfolioList from '../../../mocks/portfolio';
+import portfolioList from '../../../data/portfolio';
 import PortfolioCard from '../portfolio-card/portfolio-card';
 
 export default function PortfolioList() {
