@@ -1,4 +1,4 @@
-import { SkillsCardStyled, SkillsLevelStyled, SkillsLogoStyled, SkillsTextStyled } from './style';
+import { SkillsCardStyled, SkillsLevelStyled, SkillsTextStyled } from './style';
 
 export default function SkillsCard( { name, level} ) {
   return (

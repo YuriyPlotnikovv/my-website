@@ -9,14 +9,14 @@ export const IntroStyled = styled.section`
 export const IntroWrapperStyled = styled.div`
   display: flex;
   flex-direction: column;
-  height: 450px;
+  height: 500px;
   background-image: url(${(props) => props.$image}),
     url(${(props) => props.$background});
   background-size: 500px, 900px;
   background-repeat: no-repeat;
   background-position:
-    right -40px,
-    right 50px;
+    580px -30px,
+    right bottom;
   margin: 0 auto;
   max-width: 1040px;
   position: relative;

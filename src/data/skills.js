@@ -44,7 +44,7 @@ const skillsList = [
   {
     id: 7,
     name: 'Фреймворки',
-    level: 7,
+    level: 6,
     logo: '',
   },
 ];

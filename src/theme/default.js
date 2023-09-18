@@ -3,8 +3,7 @@ export const defaultTheme = {
   fontSize: '16px',
   fontWeight: '400',
   lineHeight: '1.2em',
-  colorText: '#000',
+  colorText: '#111',
   backgroundColor: '#fff',
   height: '100%',
-  width: '1280px',
 };

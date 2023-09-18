@@ -13,5 +13,5 @@ export const StyledHeaderWrapper = styled.div`
   justify-content: space-between;
   max-width: 1040px;
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 15px 10px;
 `;

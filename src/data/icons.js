@@ -14,15 +14,15 @@ const iconsList = [
   },
   {
     id: 1,
-    title: 'Vk',
-    image: vk,
-    url: 'https://vk.com/yuriy.plotnikovv',
-  },
-  {
-    id: 2,
     title: 'Instagram',
     image: instagram,
     url: 'https://instagram.com/yuriy.plotnikovv?igshid=ZGUzMzM3NWJiOQ==',
+  },
+  {
+    id: 2,
+    title: 'Vk',
+    image: vk,
+    url: 'https://vk.com/yuriy.plotnikovv',
   },
   {
     id: 3,
@@ -38,7 +38,7 @@ const iconsList = [
   },
   {
     id: 5,
-    title: 'Mail',
+    title: 'Письмо на почту',
     image: mail,
     url: 'mailto:yuriy.plotnikovv@yandex.ru',
   },

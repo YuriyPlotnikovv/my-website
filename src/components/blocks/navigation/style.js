@@ -13,4 +13,5 @@ export const StyledNavList = styled.ul`
 
 export const StyledNavItem = styled.li`
   list-style-type: none;
+  font-size: 20px;
 `;

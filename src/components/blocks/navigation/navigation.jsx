@@ -6,13 +6,13 @@ export default function Navigation() {
     <StyledNavigation>
       <StyledNavList>
         <StyledNavItem>
-          <Button link='about'>Обо мне</Button>
+          <Button link='about'>обо мне</Button>
         </StyledNavItem>
         <StyledNavItem>
-          <Button link='portfolio'>Портфолио</Button>
+          <Button link='portfolio'>портфолио</Button>
         </StyledNavItem>
         <StyledNavItem>
-          <Button link='contacts'>Контакты</Button>
+          <Button link='contacts'>контакты</Button>
         </StyledNavItem>
       </StyledNavList>
     </StyledNavigation>
