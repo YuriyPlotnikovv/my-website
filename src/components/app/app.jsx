@@ -7,6 +7,7 @@ import Main from '../pages/main/main';
 import About from '../pages/about/about';
 import Portfolio from '../pages/portfolio/portfolio';
 import Contacts from '../pages/contacts/contacts';
+import SiteCard from '../pages/project-page/project-page';
 
 export default function App() {
   return (
@@ -18,11 +19,12 @@ export default function App() {
           <Route path='/' element={<PageWrapper />} >
             <Route index element={<Main />} />
             <Route path='about' element={<About />} />
-            <Route path='portfolio' element={<Portfolio />}>
-              <Route path='sedona' element={''} />
-              <Route path='catenergy' element={''} />
-              <Route path='kekstagram' element={''} />
-              <Route path='kinoman' element={''} />
+            <Route path='portfolio' element={<Portfolio />} />
+            <Route path='sites/'>
+              <Route path='sedona' element={<SiteCard id={0} />} />
+              <Route path='catenergy' element={<SiteCard id={1} />} />
+              <Route path='kekstagram' element={<SiteCard id={2} />} />
+              <Route path='farmerproducts' element={<SiteCard id={3} />} />
             </Route>
             <Route path='contacts' element={<Contacts />} />
           </Route>

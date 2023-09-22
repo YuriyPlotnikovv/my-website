@@ -7,7 +7,7 @@ import background from '../../../assets/background.png';
 export default function Main() {
   return (
     <StyledMain>
-      <Intro title='Front-end Developer' titleSize='big' textOne='Пишу чистый, изящный и эффективный код' image={image} background={background} />
+      <Intro height='450px' title='Front-end Developer' titleSize='big' textOne='Пишу чистый, изящный и эффективный код' image={image} background={background} />
       <MyWorks />
     </StyledMain>
   )

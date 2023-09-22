@@ -18,6 +18,6 @@ export const GlobalStyle = createGlobalStyle`
     line-height: ${(props) => props.theme.lineHeight};
     font-weight: ${(props) => props.theme.fontWeight};
     color: ${(props) => props.theme.colorText};
-    width: 100%;
+    min-width: 1040px;
   }
 `;

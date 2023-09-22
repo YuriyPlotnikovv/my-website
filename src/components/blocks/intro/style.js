@@ -9,20 +9,17 @@ export const IntroStyled = styled.section`
 export const IntroWrapperStyled = styled.div`
   display: flex;
   flex-direction: column;
-  height: 500px;
+  height: ${(props) => props.$height};
   background-image: url(${(props) => props.$image}),
     url(${(props) => props.$background});
-  background-size: 500px, 900px;
+  background-size: 450px, 900px;
   background-repeat: no-repeat;
   background-position:
-    580px -30px,
+    550px,
     right bottom;
   margin: 0 auto;
   max-width: 1040px;
   position: relative;
-`;
-
-export const TextWrapperStyled = styled.div`
   color: #333;
   padding: 50px;
   font-size: 26px;

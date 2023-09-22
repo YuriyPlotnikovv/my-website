@@ -6,7 +6,7 @@ import PortfolioList from '../../blocks/portfolio-list/portfolio-list';
 export default function Portfolio() {
   return (
     <StyledPortfolio>
-      <Intro title='Портфолио' titleSize='extrabig' textOne='Посмотрите несколько моих последних работ.' textTwo='Я - начинающий специалист, поэтому часть проектов выполнена в рамках учебных курсов, остальные - это Pet-проекты.' image={image} />
+      <Intro height='450px' title='Портфолио' titleSize='extrabig' textOne='Посмотрите несколько моих последних работ.' textTwo='Я - начинающий специалист, поэтому часть проектов выполнена в рамках учебных курсов, остальные - это Pet-проекты.' image={image} />
       <PortfolioList />
     </StyledPortfolio>
   )

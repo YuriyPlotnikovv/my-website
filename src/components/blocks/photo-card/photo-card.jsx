@@ -1,9 +1,9 @@
 import { PhotoCardStyled, PhotoImageStyled } from './style';
 
-export default function PhotoCard({img, title}) {
+export default function PhotoCard( props ) {
   return (
-    <PhotoCardStyled>
-      <PhotoImageStyled src={img} alt={title}/>
+    <PhotoCardStyled $width={props.width}>
+      <PhotoImageStyled src={props.img} alt={props.title}/>
     </PhotoCardStyled>
   )
 }
