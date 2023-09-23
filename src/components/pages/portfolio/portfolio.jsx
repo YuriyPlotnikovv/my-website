@@ -1,6 +1,6 @@
 import Intro from '../../blocks/intro/intro';
 import { StyledPortfolio } from './style';
-import image from '../../../assets/myPhoto.png';
+import image from '../../../assets/background-photo/portfolio-background.png';
 import PortfolioList from '../../blocks/portfolio-list/portfolio-list';
 
 export default function Portfolio() {

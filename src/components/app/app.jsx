@@ -25,6 +25,7 @@ export default function App() {
               <Route path='catenergy' element={<SiteCard id={1} />} />
               <Route path='kekstagram' element={<SiteCard id={2} />} />
               <Route path='farmerproducts' element={<SiteCard id={3} />} />
+              <Route path='mywebsite' element={<SiteCard id={4} />} />
             </Route>
             <Route path='contacts' element={<Contacts />} />
           </Route>

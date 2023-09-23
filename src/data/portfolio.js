@@ -27,13 +27,19 @@ import farmerproductsThird from '../assets/portfolio/farmerproducts/farmerproduc
 import farmerproductsFourth from '../assets/portfolio/farmerproducts/farmerproducts-slider.png';
 import farmerproductsFifth from '../assets/portfolio/farmerproducts/farmerproducts-card.png';
 
-import mysite from '../assets/portfolio/logo-mySite.png';
+import mysite from '../assets/portfolio/mywebsite/mywebsite-logo.png';
+import mysiteFirst from '../assets/portfolio/mywebsite/mywebsite-about.png';
+import mysiteSecond from '../assets/portfolio/mywebsite/mywebsite-portfolio.png';
+import mysiteThird from '../assets/portfolio/mywebsite/mywebsite-slider.png';
+import mysiteFourth from '../assets/portfolio/mywebsite/mywebsite-contacts.png';
+import mysiteFifth from '../assets/portfolio/mywebsite/mywebsite-project.png';
+
 import kinoman from '../assets/portfolio/logo-kinoman.png';
 
 const portfolioList = [
   {
     id: 0,
-    title: 'Седона',
+    title: 'Sedona',
     textOne: 'Простой проект на вёрстку',
     textTwo:
       'Первый учебный проект, разработан в рамках курса Frontend-разработчик от HTML Academy.',
@@ -221,7 +227,7 @@ const portfolioList = [
   },
   {
     id: 3,
-    title: 'Фермерские продукты',
+    title: 'Farmer Products',
     textOne: 'Простой проект на ReactJS',
     textTwo:
       'Четвертый учебный проект, разработан в рамках курса ReactJs-разработчик от HTML Academy.',
@@ -311,23 +317,39 @@ const portfolioList = [
       {
         id: 4,
         name: 'Не реализовано',
-        description: 'Адаптивность',
+        description: 'Адаптивность, анимации',
       },
     ],
     images: [
       {
         id: 0,
-        img: '/',
+        img: mysiteFirst,
+      },
+      {
+        id: 1,
+        img: mysiteSecond,
+      },
+      {
+        id: 2,
+        img: mysiteThird,
+      },
+      {
+        id: 3,
+        img: mysiteFourth,
+      },
+      {
+        id: 4,
+        img: mysiteFifth,
       },
     ],
     logo: mysite,
-    to: '',
+    to: '/sites/mywebsite',
     deploy: '/',
     repository: 'https://github.com/YuriyPlotnikovv/my-website',
   },
   {
     id: 5,
-    title: 'Киноман',
+    title: 'Cinemaddict',
     textOne: 'Проект на ReactJs',
     textTwo:
       'Пятый учебный проект, разработан в рамках курса Frontend-разработчик от HTML Academy.',

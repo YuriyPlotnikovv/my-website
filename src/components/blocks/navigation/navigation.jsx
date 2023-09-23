@@ -1,9 +1,9 @@
 import Button from '../../ui/button/button';
 import { StyledNavItem, StyledNavList, StyledNavigation } from './style';
 
-export default function Navigation() {
+export default function Navigation({size}) {
   return (
-    <StyledNavigation>
+    <StyledNavigation $size={size}>
       <StyledNavList>
         <StyledNavItem>
           <Button link='about'>обо мне</Button>

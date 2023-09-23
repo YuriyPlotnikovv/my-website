@@ -1,6 +1,6 @@
 export const defaultTheme = {
-  fontFamily: '"Inter", "Arial", sans-serif',
-  fontSize: '16px',
+  fontFamily: '"ProximaNova-Light", "Helvetica", "Arial", sans-serif',
+  fontSize: '18px',
   fontWeight: '400',
   lineHeight: '1.2em',
   colorText: '#111',

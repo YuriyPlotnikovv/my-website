@@ -1,7 +1,7 @@
 import Intro from '../../blocks/intro/intro';
 import { ContactsSectionStyled, ContactsWrapperStyled, StyledContacts } from './style';
 import Links from '../../blocks/social-links/social-links';
-import image from '../../../assets/myPhoto.png';
+import image from '../../../assets/background-photo/contacts-background.png';
 
 export default function Contacts() {
   return (

@@ -8,7 +8,7 @@ export default function Header() {
     <StyledHeader>
       <StyledHeaderWrapper>
         <Logo />
-        <Navigation/>
+        <Navigation size />
         <Links $start='0' $length='3' $color='#fff' $size='40px' />
       </StyledHeaderWrapper>
     </StyledHeader>

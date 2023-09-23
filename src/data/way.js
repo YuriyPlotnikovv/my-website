@@ -29,7 +29,7 @@ const wayList = [
   },
   {
     id: 7,
-    text: 'Закончил курс Frontend-разработчик от HTML Academy',
+    text: 'В сентябре 2023 года закончил курс Frontend-разработчик от HTML Academy',
   },
   {
     id: 8,

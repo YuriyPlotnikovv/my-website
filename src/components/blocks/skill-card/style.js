@@ -6,7 +6,7 @@ export const SkillsCardStyled = styled.div`
   width: ${(props) => props.$level * 10 + '%'};
   background-color: #e6e6e6;
   border-radius: 10px 0 0 10px;
-  font-style: italic;
+  font-family: 'ProximaNova-LightIt';
   box-sizing: border-box;
 `;
 

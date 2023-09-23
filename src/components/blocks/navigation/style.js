@@ -2,6 +2,7 @@ import { styled } from 'styled-components';
 
 export const StyledNavigation = styled.nav`
   align-items: center;
+  font-size: ${(props) => (props.$size ? '24px' : '')};
 `;
 
 export const StyledNavList = styled.ul`
@@ -13,5 +14,5 @@ export const StyledNavList = styled.ul`
 
 export const StyledNavItem = styled.li`
   list-style-type: none;
-  font-size: 20px;
+  font-family: ProximaNova-Bold;
 `;
