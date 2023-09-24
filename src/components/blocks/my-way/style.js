@@ -27,29 +27,14 @@ export const MyWayListStyled = styled.ul`
 
 export const MyWayItemStyled = styled.li`
   padding: 0;
-  margin-left: ${(props) => (props.$id % 2 ? 'calc(100% - 470px)' : '20px')};
+  margin-left: ${(props) => (props.$id % 2 ? 'calc(100% - 500px)' : '50px')};
   list-style-type: none;
   background-color: #e8e8e8;
-  border-radius: ${(props) =>
-    props.$id % 2 ? '0 10px 10px 0' : '10px 0 0 10px'};
+  border-radius: 10px;
   box-shadow: ${(props) => (props.$id % 2 ? '3px' : '-3px')} 1px 4px 0px
     rgba(0, 0, 0, 0.1);
   max-width: 450px;
   position: relative;
-
-  &::before {
-    content: '';
-    display: block;
-    width: 0;
-    height: 0;
-    position: absolute;
-    top: 0;
-    ${(props) =>
-      props.$id % 2
-        ? 'left: -50px;     border-right: 50px solid #e8e8e8;'
-        : 'right: -49.5px;     border-left: 50px solid #e8e8e8;'}
-    border-top: 30px solid transparent;
-    border-bottom: 29px solid transparent;
   }
 `;
 

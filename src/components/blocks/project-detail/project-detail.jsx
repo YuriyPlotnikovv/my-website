@@ -8,7 +8,7 @@ export default function ProjectDetail({features, deploy, repository}) {
     <ProjectStyled>
       <ProjectWrapperStyled>
         <ProjectHeadingWrapperStyled>
-          <Title level='2' size='small'>Особенности проекта:</Title>
+          <Title level='2' size='small'>О проекте:</Title>
         </ProjectHeadingWrapperStyled>
           <ProjectDataListStyled>
           {features.map((item) => (
@@ -18,9 +18,6 @@ export default function ProjectDetail({features, deploy, repository}) {
               </React.Fragment>
                 ))}
         </ProjectDataListStyled>
-        <ProjectHeadingWrapperStyled>
-          <Title level='2' size='small'>Ссылки:</Title>
-        </ProjectHeadingWrapperStyled>
         <ProjectLinksBlockStyled>
           <Button href={deploy} >Деплой проекта</Button>
           <Button href={repository} >GitHub проекта</Button>

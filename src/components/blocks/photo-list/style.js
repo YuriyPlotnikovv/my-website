@@ -17,7 +17,7 @@ export const PhotoListStyled = styled.ul`
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  gap: 10px 10px;
+  gap: 20px 10px;
   margin: 0;
   padding: 0;
 `;
