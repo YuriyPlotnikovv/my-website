@@ -7,8 +7,8 @@ export const StyledHeader = styled.header`
 
 export const StyledHeaderWrapper = styled.div`
   display: flex;
-  flex-wrap: wrap;
   box-sizing: border-box;
+  gap: 50px;
   align-items: center;
   justify-content: space-between;
   max-width: 1040px;

@@ -25,27 +25,32 @@ export default function AboutDetail() {
         >
           <SwiperSlide>
             <AboutDetailItemStyled>
-              <AboutDetailContentStyled>Жил в разных городах по всей стране: Екатеринбург, Новосибирск, Липецк, Краснодар и Сочи. Теперь душа лежит в Питер.</AboutDetailContentStyled>
+              <AboutDetailContentStyled>Жил в разных городах по всей стране: Екатеринбург, Новосибирск, Липецк, Краснодар и Сочи.</AboutDetailContentStyled>
             </AboutDetailItemStyled>
           </SwiperSlide>
           <SwiperSlide>
             <AboutDetailItemStyled>
-              <AboutDetailContentStyled>Провожу время всегда с пользой - читаю книги (предпочитаю фантастику, фанат Стивена Кинга), хожу в спортзал, зимой катаюсь на сноуборде, очень люблю мотоциклы (мой стиль - круизеры).</AboutDetailContentStyled>
+              <AboutDetailContentStyled>Свободное время провожу с пользой: читаю книги (предпочитаю фантастику), хожу в спортзал, зимой катаюсь на сноуборде, очень люблю мотоциклы (мой стиль - круизёры).</AboutDetailContentStyled>
             </AboutDetailItemStyled>
           </SwiperSlide>
           <SwiperSlide>
             <AboutDetailItemStyled>
-              <AboutDetailContentStyled>Из личностных качеств могу выделить следующие: целеустремлённость, стрессоустойчивость, ответственный подход к работе, легко и быстро осваиваю новое, постоянно развиваю навыки.</AboutDetailContentStyled>
+              <AboutDetailContentStyled>Я целеустремлённый, стрессоустойчивый, ответственно подхожу к работе, легко и быстро осваиваю новое и адаптируюсь к изменениям.</AboutDetailContentStyled>
             </AboutDetailItemStyled>
           </SwiperSlide>
           <SwiperSlide>
             <AboutDetailItemStyled>
-              <AboutDetailContentStyled>Высшее образование получаю в сфере сервиса, заочно. Решение о его получении пришло далеко не сразу после окончания школы - через целых 7 лет. И я горжусь, что смог абсолютно самостоятельно подготовиться и сдать Егэ для поступления на бюджет, и сейчас уже на 3м курсе.</AboutDetailContentStyled>
+              <AboutDetailContentStyled>Высшее образование получаю в сфере сервиса, заочно. Решение о его получении пришло только через 7 лет после окончания школы.<br/>Я смог самостоятельно подготовиться и сдать ЕГЭ, поступить на бюджет, и сейчас учусь на 3-м курсе.</AboutDetailContentStyled>
             </AboutDetailItemStyled>
           </SwiperSlide>
           <SwiperSlide>
             <AboutDetailItemStyled>
-              <AboutDetailContentStyled>Моя цель - стать профессионалом в сфере Frontend-разработки, и я сделаю все, чтобы достичь её.</AboutDetailContentStyled>
+              <AboutDetailContentStyled>Почему сервис?<br/>С 19-ти лет я работаю в сфере гостеприимства - сейчас занимаю позицию менеджера ресторана в отеле. Мне это нравится, но в один день я понял, что хочу изменить вектор профессионального развития.</AboutDetailContentStyled>
+            </AboutDetailItemStyled>
+          </SwiperSlide>
+          <SwiperSlide>
+            <AboutDetailItemStyled>
+              <AboutDetailContentStyled>Мои отношения с фронтендом можно описать так: "Это была любовь с первой строчки кода".<br/>Я стремлюсь стать профессионалом в этой сфере.</AboutDetailContentStyled>
             </AboutDetailItemStyled>
           </SwiperSlide>
         </AboutDetailSwiperStyled>

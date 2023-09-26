@@ -33,3 +33,8 @@ export const StyledCopyIcon = styled(HandySvg)`
   box-sizing: border-box;
   margin-left: 5px;
 `;
+
+export const FooterIconsStyled = styled.div`
+  display: flex;
+  gap: 5px;
+`;

@@ -6,7 +6,7 @@ import image from '../../../assets/background-photo/contacts-background.png';
 export default function Contacts() {
   return (
     <StyledContacts>
-      <Intro height='450px' title='Контакты' titleSize='extrabig' textOne='Свяжитесь со мной в одной из социальных сетей или напишите на электронную почту.' image={image} />
+      <Intro height='450px' title='Контакты' titleSize='extrabig' textOne='Свяжитесь со мной в одной из социальных сетей или по электронной почте.' textTwo='Буду рад обратной связи!' image={image} />
       <ContactsSectionStyled>
         <ContactsWrapperStyled>
           <Links $grid $title $start='2' $length='6' $color='#333' $size='60px' />

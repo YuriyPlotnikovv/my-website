@@ -61,4 +61,5 @@ export const ProjectLinksBlockStyled = styled.div`
   font-weight: 600;
   text-decoration: underline;
   color: #333333;
+  font-family: 'ProximaNova-Bold';
 `;

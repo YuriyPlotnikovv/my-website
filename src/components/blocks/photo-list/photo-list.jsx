@@ -1,6 +1,6 @@
 import { PhotoStyled, PhotoWrapperStyled, PhotoListStyled, PhotoItemStyled, PhotoLinkStyled } from './style';
 import PhotoCard from '../photo-card/photo-card';
-import photoList from '../../../data/photo';
+import Button from '../../ui/button/button';
 
 export default function PhotoList({background, list, length, width, href}) {
   return (
@@ -8,10 +8,10 @@ export default function PhotoList({background, list, length, width, href}) {
       <PhotoWrapperStyled>
         <PhotoListStyled>
           {list.slice(0, length).map((photo) => (
-            <PhotoItemStyled key={photo.id}>
-              <PhotoLinkStyled to={href}>
+            <PhotoItemStyled $href={href} key={photo.id}>
+              {(href ? (<Button href={href}>
                 <PhotoCard {...photo} width={width} />
-              </PhotoLinkStyled>
+              </Button>) : (<PhotoCard {...photo} width={width} />))}
             </PhotoItemStyled>
           ))}
         </PhotoListStyled>

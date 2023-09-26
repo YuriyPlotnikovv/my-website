@@ -1,5 +1,4 @@
 import { styled } from 'styled-components';
-import { Link } from 'react-router-dom';
 
 export const PhotoStyled = styled.section`
   display: block;
@@ -29,12 +28,10 @@ export const PhotoItemStyled = styled.li`
   border-radius: 10px;
   box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
 
-  &:hover {
+  ${(props) =>
+    props.$href
+      ? `&:hover {
     box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.1);
-  }
-`;
-
-export const PhotoLinkStyled = styled(Link)`
-  text-decoration: none;
-  color: inherit;
+  }`
+      : ''}
 `;

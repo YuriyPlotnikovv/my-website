@@ -5,6 +5,7 @@ export const StyledLogo = styled(Link)`
   display: flex;
   align-items: center;
   text-decoration: none;
+  margin-right: auto;
 
   &:hover,
   &:active {

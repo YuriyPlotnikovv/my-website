@@ -6,9 +6,8 @@ export const StyledButton = styled(Link)`
   align-items: center;
   text-decoration: none;
   color: inherit;
-  padding: 15px 10px;
+  padding: ${(props) => (props.$padding ? '' : '5px')};
   box-sizing: border-box;
-  font-family: 'ProximaNova-Bold';
 
   &:hover,
   &:active {

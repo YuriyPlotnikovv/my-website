@@ -20,7 +20,7 @@ const iconsList = [
   },
   {
     id: 2,
-    title: 'Vk',
+    title: 'VK',
     image: vk,
     url: 'https://vk.com/yuriy.plotnikovv',
   },
@@ -32,7 +32,7 @@ const iconsList = [
   },
   {
     id: 4,
-    title: 'Whatsapp',
+    title: 'WhatsApp',
     image: whatsapp,
     url: 'https://wa.me/+79002857324',
   },
