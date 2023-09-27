@@ -1,7 +1,7 @@
 import { HandySvg } from 'handy-svg';
 import { styled } from 'styled-components';
 
-export const StyledLinksList = styled.ul`
+export const LinksListStyled = styled.ul`
   ${(props) =>
     props.$grid
       ? 'display: grid; grid-template-columns: repeat(2, auto); gap: 10px 200px;'
@@ -12,7 +12,7 @@ export const StyledLinksList = styled.ul`
   padding: 0;
 `;
 
-export const StyledLinksItem = styled.li`
+export const LinksItemStyled = styled.li`
   list-style-type: none;
 `;
 

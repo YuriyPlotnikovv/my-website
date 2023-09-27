@@ -1,13 +1,13 @@
 import { HandySvg } from 'handy-svg';
 import styled from 'styled-components';
 
-export const StyledFooter = styled.footer`
+export const FooterStyled = styled.footer`
   background-color: #f5f5f5;
   color: #333;
   box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
 `;
 
-export const StyledFooterWrapper = styled.div`
+export const FooterWrapperStyled = styled.div`
   display: flex;
   flex-wrap: wrap;
   box-sizing: border-box;
@@ -18,23 +18,18 @@ export const StyledFooterWrapper = styled.div`
   padding: 15px 10px;
 `;
 
-export const StyledCopyright = styled.p`
+export const CopyrightStyled = styled.p`
   margin: 0;
 `;
 
-export const StyledIconsCopy = styled.a`
+export const IconsCopyStyled = styled.a`
   text-decoration: none;
 `;
 
-export const StyledCopyIcon = styled(HandySvg)`
+export const CopyIconStyled = styled(HandySvg)`
   display: block;
   width: 25px;
   height: 25px;
   box-sizing: border-box;
   margin-left: 5px;
-`;
-
-export const FooterIconsStyled = styled.div`
-  display: flex;
-  gap: 5px;
 `;

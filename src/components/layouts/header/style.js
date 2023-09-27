@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
-export const StyledHeader = styled.header`
+export const HeaderStyled = styled.header`
   background-color: #111;
   color: #fff;
 `;
 
-export const StyledHeaderWrapper = styled.div`
+export const HeaderWrapperStyled = styled.div`
   display: flex;
   box-sizing: border-box;
   gap: 50px;

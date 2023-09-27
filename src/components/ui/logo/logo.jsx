@@ -1,11 +1,10 @@
-import { HandySvg } from 'handy-svg';
 import logo from '../../../assets/icons/icon-logo.svg';
-import { StyledLogo } from './style';
+import { ImgStyled, LogoStyled } from './style';
 
 export default function Logo() {
   return (
-    <StyledLogo to='/'>
-      <HandySvg className='logo' src={logo} alt='Yuriy Plotnikov' />
-    </StyledLogo>
+    <LogoStyled to='/'>
+      <ImgStyled src={logo} alt='Yuriy Plotnikov' />
+    </LogoStyled>
   )
 }

@@ -7,7 +7,7 @@ export default function PortfolioList() {
     <PortfolioStyled>
       <PortfolioWrapperStyled>
         <PortfolioListStyled>
-          {portfolioList.map((portfolio) => (
+          {portfolioList.slice(0, 5).map((portfolio) => (
             <PortfolioItemStyled key={portfolio.id}>
               <PortfolioLinkStyled to={portfolio.to}>
                 <PortfolioCard {...portfolio} />

@@ -1,6 +1,6 @@
 import { styled } from 'styled-components';
 
-export const StyledPortfolioCard = styled.div`
+export const PortfolioCardStyled = styled.div`
   display: flex;
   flex-direction: column;
   padding: 5px;
@@ -9,7 +9,7 @@ export const StyledPortfolioCard = styled.div`
   height: 240px;
 `;
 
-export const StyledPortfolioImage = styled.img`
+export const PortfolioImageStyled = styled.img`
   display: block;
   height: 160px;
   width: auto;
@@ -17,6 +17,6 @@ export const StyledPortfolioImage = styled.img`
   border-radius: 5px;
 `;
 
-export const StyledPortfolioText = styled.p`
+export const PortfolioTextStyled = styled.p`
   margin: 0;
 `;

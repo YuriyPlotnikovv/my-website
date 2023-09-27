@@ -12,10 +12,10 @@ export const IntroWrapperStyled = styled.div`
   height: ${(props) => props.$height};
   background-image: url(${(props) => props.$image}),
     url(${(props) => props.$background});
-  background-size: 500px, 900px;
+  background-size: 400px, 900px;
   background-repeat: no-repeat;
   background-position:
-    550px,
+    600px,
     right bottom;
   margin: 0 auto;
   max-width: 1040px;

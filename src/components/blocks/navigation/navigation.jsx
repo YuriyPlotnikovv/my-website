@@ -1,20 +1,20 @@
 import Button from '../../ui/button/button';
-import { StyledNavItem, StyledNavList, StyledNavigation } from './style';
+import { NavItemStyled, NavListStyled, NavigationStyled } from './style';
 
 export default function Navigation({size}) {
   return (
-    <StyledNavigation $size={size}>
-      <StyledNavList>
-        <StyledNavItem>
+    <NavigationStyled $size={size}>
+      <NavListStyled>
+        <NavItemStyled>
           <Button link='about'>обо мне</Button>
-        </StyledNavItem>
-        <StyledNavItem>
+        </NavItemStyled>
+        <NavItemStyled>
           <Button link='portfolio'>портфолио</Button>
-        </StyledNavItem>
-        <StyledNavItem>
+        </NavItemStyled>
+        <NavItemStyled>
           <Button link='contacts'>контакты</Button>
-        </StyledNavItem>
-      </StyledNavList>
-    </StyledNavigation>
+        </NavItemStyled>
+      </NavListStyled>
+    </NavigationStyled>
   )
 }
