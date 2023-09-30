@@ -1,40 +1,40 @@
-import sedona from '../assets/portfolio/sedona/sedona-logo.png';
-import sedonaFirst from '../assets/portfolio/sedona/sedona-catalog.png';
-import sedonaSecond from '../assets/portfolio/sedona/sedona-features.png';
-import sedonaThird from '../assets/portfolio/sedona/sedona-cards.png';
-import sedonaFourth from '../assets/portfolio/sedona/sedona-filter.png';
-import sedonaFifth from '../assets/portfolio/sedona/sedona-footer.png';
-import sedonaSixth from '../assets/portfolio/sedona/sedona-modal.png';
+import sedona from '../assets/portfolio/sedona/sedona-logo.webp';
+import sedonaFirst from '../assets/portfolio/sedona/sedona-catalog.webp';
+import sedonaSecond from '../assets/portfolio/sedona/sedona-features.webp';
+import sedonaThird from '../assets/portfolio/sedona/sedona-cards.webp';
+import sedonaFourth from '../assets/portfolio/sedona/sedona-filter.webp';
+import sedonaFifth from '../assets/portfolio/sedona/sedona-footer.webp';
+import sedonaSixth from '../assets/portfolio/sedona/sedona-modal.webp';
 
-import catenergy from '../assets/portfolio/catenergy/catenergy-logo.png';
-import catenergyFirst from '../assets/portfolio/catenergy/catenergy-catalog.png';
-import catenergySecond from '../assets/portfolio/catenergy/catenergy-features.png';
-import catenergyThird from '../assets/portfolio/catenergy/catenergy-additional.png';
-import catenergyFourth from '../assets/portfolio/catenergy/catenergy-footer.png';
-import catenergyFifth from '../assets/portfolio/catenergy/catenergy-program.png';
+import catenergy from '../assets/portfolio/catenergy/catenergy-logo.webp';
+import catenergyFirst from '../assets/portfolio/catenergy/catenergy-catalog.webp';
+import catenergySecond from '../assets/portfolio/catenergy/catenergy-features.webp';
+import catenergyThird from '../assets/portfolio/catenergy/catenergy-additional.webp';
+import catenergyFourth from '../assets/portfolio/catenergy/catenergy-footer.webp';
+import catenergyFifth from '../assets/portfolio/catenergy/catenergy-program.webp';
 
-import kekstagram from '../assets/portfolio/kekstagram/kekstagram-logo.png';
-import kekstagramFirst from '../assets/portfolio/kekstagram/kekstagram-sorting.png';
-import kekstagramSecond from '../assets/portfolio/kekstagram/kekstagram-photo.png';
-import kekstagramThird from '../assets/portfolio/kekstagram/kekstagram-comments.png';
-import kekstagramFourth from '../assets/portfolio/kekstagram/kekstagram-download.png';
-import kekstagramFifth from '../assets/portfolio/kekstagram/kekstagram-popup.png';
+import kekstagram from '../assets/portfolio/kekstagram/kekstagram-logo.webp';
+import kekstagramFirst from '../assets/portfolio/kekstagram/kekstagram-sorting.webp';
+import kekstagramSecond from '../assets/portfolio/kekstagram/kekstagram-photo.webp';
+import kekstagramThird from '../assets/portfolio/kekstagram/kekstagram-comments.webp';
+import kekstagramFourth from '../assets/portfolio/kekstagram/kekstagram-download.webp';
+import kekstagramFifth from '../assets/portfolio/kekstagram/kekstagram-popup.webp';
 
-import farmerproducts from '../assets/portfolio/farmerproducts/farmerproducts-logo.png';
-import farmerproductsFirst from '../assets/portfolio/farmerproducts/farmerproducts-features.png';
-import farmerproductsSecond from '../assets/portfolio/farmerproducts/farmerproducts-catalog.png';
-import farmerproductsThird from '../assets/portfolio/farmerproducts/farmerproducts-order.png';
-import farmerproductsFourth from '../assets/portfolio/farmerproducts/farmerproducts-slider.png';
-import farmerproductsFifth from '../assets/portfolio/farmerproducts/farmerproducts-card.png';
+import farmerproducts from '../assets/portfolio/farmerproducts/farmerproducts-logo.webp';
+import farmerproductsFirst from '../assets/portfolio/farmerproducts/farmerproducts-features.webp';
+import farmerproductsSecond from '../assets/portfolio/farmerproducts/farmerproducts-catalog.webp';
+import farmerproductsThird from '../assets/portfolio/farmerproducts/farmerproducts-order.webp';
+import farmerproductsFourth from '../assets/portfolio/farmerproducts/farmerproducts-slider.webp';
+import farmerproductsFifth from '../assets/portfolio/farmerproducts/farmerproducts-card.webp';
 
-import mysite from '../assets/portfolio/mywebsite/mywebsite-logo.png';
-import mysiteFirst from '../assets/portfolio/mywebsite/mywebsite-about.png';
-import mysiteSecond from '../assets/portfolio/mywebsite/mywebsite-portfolio.png';
-import mysiteThird from '../assets/portfolio/mywebsite/mywebsite-slider.png';
-import mysiteFourth from '../assets/portfolio/mywebsite/mywebsite-contacts.png';
-import mysiteFifth from '../assets/portfolio/mywebsite/mywebsite-project.png';
+import mysite from '../assets/portfolio/mywebsite/mywebsite-logo.webp';
+import mysiteFirst from '../assets/portfolio/mywebsite/mywebsite-about.webp';
+import mysiteSecond from '../assets/portfolio/mywebsite/mywebsite-portfolio.webp';
+import mysiteThird from '../assets/portfolio/mywebsite/mywebsite-slider.webp';
+import mysiteFourth from '../assets/portfolio/mywebsite/mywebsite-contacts.webp';
+import mysiteFifth from '../assets/portfolio/mywebsite/mywebsite-project.webp';
 
-import kinoman from '../assets/portfolio/logo-kinoman.png';
+import kinoman from '../assets/portfolio/logo-kinoman.webp';
 
 const portfolioList = [
   {

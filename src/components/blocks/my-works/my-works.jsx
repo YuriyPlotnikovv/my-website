@@ -12,7 +12,7 @@ export default function MyWorks() {
           <Title level='2' size='small'>Последние работы:</Title>
         </MyWorksHeadingWrapperStyled>
         <MyWorksListStyled>
-          {portfolioList.slice(1, 4).map((portfolio) => (
+          {portfolioList.slice(2, 5).reverse().map((portfolio) => (
             <MyWorksItemStyled key={portfolio.id}>
               <MyWorksLinkStyled to={portfolio.to}>
                 <PortfolioCard {...portfolio} />

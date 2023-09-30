@@ -3,7 +3,7 @@ import Intro from '../../blocks/intro/intro';
 import PhotoList from '../../blocks/photo-list/photo-list';
 import Skills from '../../blocks/skills-list/skills-list';
 import { AboutStyled } from './style';
-import image from '../../../assets/background-photo/about-photo.png';
+import image from '../../../assets/background-photo/about-photo.webp';
 import MyWay from '../../blocks/my-way/my-way';
 import photoList from '../../../data/photo';
 
