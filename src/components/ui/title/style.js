@@ -4,9 +4,9 @@ import { TitleSize } from './title';
 export const TitleStyled = styled.h1`
   margin: 0;
   padding: 0;
+
   font-family: ${(props) =>
     props.$black ? 'ProximaNovaCond-Black' : 'ProximaNova-Bold'};
-  line-height: 1.2em;
 
   font-size: ${(props) => {
     let fontSize = '36px';
@@ -24,4 +24,6 @@ export const TitleStyled = styled.h1`
     }
     return fontSize;
   }};
+
+  line-height: 1.2em;
 `;

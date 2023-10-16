@@ -2,41 +2,50 @@ import { styled } from 'styled-components';
 
 export const MailStyled = styled.section`
   display: block;
+
   background-color: #fafafa;
   box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
 `;
 
 export const MailWrapperStyled = styled.div`
-  padding: 30px 0 70px 0;
-  margin: 0 auto;
   max-width: 1040px;
+  margin: 0 auto;
+  padding: 30px 0 70px 0;
 `;
 
 export const MailHeadingWrapperStyled = styled.div`
-  margin: 0 auto;
-  width: max-content;
   position: relative;
+
+  width: max-content;
+  margin: 0 auto;
+
   color: #757575;
 
   &::before {
-    content: '';
     position: absolute;
-    left: -320px;
     top: calc(50% - 1px);
+    left: -320px;
+    z-index: 0;
+
     width: 300px;
     height: 1px;
+
     background-color: #ddd;
-    z-index: 0;
+
+    content: '';
   }
   &::after {
-    content: '';
     position: absolute;
-    right: -320px;
     top: calc(50% - 1px);
+    right: -320px;
+    z-index: 0;
+
     width: 300px;
     height: 1px;
+
     background-color: #ddd;
-    z-index: 0;
+
+    content: '';
   }
 `;
 

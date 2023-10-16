@@ -12,12 +12,14 @@ export const GlobalStyle = createGlobalStyle`
 
   body {
     position: relative;
+
+    min-width: 1040px;
     min-height: ${(props) => props.theme.height};
+
     font-family: ${(props) => props.theme.fontFamily};
     font-size: ${(props) => props.theme.fontSize};
     line-height: ${(props) => props.theme.lineHeight};
     font-weight: ${(props) => props.theme.fontWeight};
     color: ${(props) => props.theme.colorText};
-    min-width: 1040px;
   }
 `;

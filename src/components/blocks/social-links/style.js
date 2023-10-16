@@ -17,10 +17,11 @@ export const LinksItemStyled = styled.li`
 `;
 
 export const HandySvgStyled = styled(HandySvg)`
-  height: ${(props) => props.$size};
-  width: ${(props) => props.$size};
   box-sizing: border-box;
+  width: ${(props) => props.$size};
+  height: ${(props) => props.$size};
+  ${(props) => (props.$grid ? 'margin-right: 30px;' : '')}
+
   fill: ${(props) => props.$color};
   stroke: ${(props) => props.$color};
-  ${(props) => (props.$grid ? 'margin-right: 30px;' : '')}
 `;

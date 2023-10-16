@@ -2,6 +2,7 @@ import { styled } from 'styled-components';
 
 export const ProjectStyled = styled.section`
   display: block;
+
   background-color: #fafafa;
   box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
 `;
@@ -13,30 +14,38 @@ export const ProjectWrapperStyled = styled.div`
 `;
 
 export const ProjectHeadingWrapperStyled = styled.div`
-  margin: 0 auto;
-  width: max-content;
   position: relative;
+
+  width: max-content;
+  margin: 0 auto;
+
   color: #757575;
 
   &::before {
-    content: '';
     position: absolute;
-    left: -320px;
     top: calc(50% - 1px);
+    left: -320px;
+    z-index: 0;
+
     width: 300px;
     height: 1px;
+
     background-color: #ddd;
-    z-index: 0;
+
+    content: '';
   }
   &::after {
-    content: '';
     position: absolute;
-    right: -320px;
     top: calc(50% - 1px);
+    right: -320px;
+    z-index: 0;
+
     width: 300px;
     height: 1px;
+
     background-color: #ddd;
-    z-index: 0;
+
+    content: '';
   }
 `;
 
@@ -50,16 +59,18 @@ export const ProjectDataTitleStyled = styled.dt`
 `;
 
 export const ProjectDataDescriptionStyled = styled.dd`
-  color: #757575;
   margin-bottom: 10px;
+
+  color: #757575;
 `;
 
 export const ProjectLinksBlockStyled = styled.div`
   display: flex;
   justify-content: space-evenly;
+
+  font-family: 'ProximaNova-Bold';
   font-size: 24px;
   font-weight: 600;
   text-decoration: underline;
   color: #333333;
-  font-family: 'ProximaNova-Bold';
 `;

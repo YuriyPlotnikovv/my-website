@@ -3,11 +3,13 @@ import { styled } from 'styled-components';
 export const ContactsStyled = styled.main`
   display: flex;
   flex-direction: column;
+
   color: #000;
 `;
 
 export const ContactsSectionStyled = styled.section`
   display: block;
+
   background-color: #fafafa;
   box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
 `;

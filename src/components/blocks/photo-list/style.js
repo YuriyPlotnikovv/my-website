@@ -2,6 +2,7 @@ import { styled } from 'styled-components';
 
 export const PhotoStyled = styled.section`
   display: block;
+
   background-color: ${(props) => props.$background};
   box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
 `;
@@ -23,10 +24,11 @@ export const PhotoListStyled = styled.ul`
 
 export const PhotoItemStyled = styled.li`
   padding: 0;
-  list-style-type: none;
+
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
+  list-style-type: none;
 
   ${(props) =>
     props.$href

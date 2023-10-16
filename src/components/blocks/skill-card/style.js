@@ -2,12 +2,14 @@ import { styled } from 'styled-components';
 
 export const SkillsCardStyled = styled.div`
   display: flex;
-  padding: 10px 20px;
+  box-sizing: border-box;
   width: ${(props) => props.$level * 10 + '%'};
+  padding: 10px 20px;
+
+  font-family: 'ProximaNova-LightIt';
+
   background-color: #e6e6e6;
   border-radius: 10px 0 0 10px;
-  font-family: 'ProximaNova-LightIt';
-  box-sizing: border-box;
 `;
 
 export const SkillsTextStyled = styled.p`

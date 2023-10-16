@@ -5,12 +5,14 @@ import { HandySvg } from 'handy-svg';
 export const LogoStyled = styled(Link)`
   display: flex;
   align-items: center;
-  text-decoration: none;
   margin-right: auto;
+
+  text-decoration: none;
 
   &:hover,
   &:active {
     text-decoration: none;
+
     opacity: 0.6;
   }
 `;
