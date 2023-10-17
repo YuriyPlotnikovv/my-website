@@ -2,9 +2,9 @@ import { HandySvg } from 'handy-svg';
 import styled from 'styled-components';
 
 export const FooterStyled = styled.footer`
-  color: #333;
+  color: ${(props) => props.theme.colorTextBlackTwo};
 
-  background-color: #f5f5f5;
+  background-color: ${(props) => props.theme.backgroundColorGrayFive};
   box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
 `;
 

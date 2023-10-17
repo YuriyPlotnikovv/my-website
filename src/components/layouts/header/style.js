@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
 export const HeaderStyled = styled.header`
-  color: #fff;
+  color: ${(props) => props.theme.colorTextWhite};
 
-  background-color: #111;
+  background-color: ${(props) => props.theme.backgroundColorBlack};
 `;
 
 export const HeaderWrapperStyled = styled.div`

@@ -3,7 +3,7 @@ import { styled } from 'styled-components';
 export const ProjectStyled = styled.section`
   display: block;
 
-  background-color: #fafafa;
+  background-color: ${(props) => props.theme.backgroundColorGray};
   box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
 `;
 
@@ -19,7 +19,7 @@ export const ProjectHeadingWrapperStyled = styled.div`
   width: max-content;
   margin: 0 auto;
 
-  color: #757575;
+  color: ${(props) => props.theme.colorTextGray};
 
   &::before {
     position: absolute;
@@ -30,7 +30,7 @@ export const ProjectHeadingWrapperStyled = styled.div`
     width: 300px;
     height: 1px;
 
-    background-color: #ddd;
+    background-color: ${(props) => props.theme.backgroundColorGrayTwo};
 
     content: '';
   }
@@ -43,7 +43,7 @@ export const ProjectHeadingWrapperStyled = styled.div`
     width: 300px;
     height: 1px;
 
-    background-color: #ddd;
+    background-color: ${(props) => props.theme.backgroundColorGrayTwo};
 
     content: '';
   }
@@ -55,13 +55,13 @@ export const ProjectDataListStyled = styled.dl`
 `;
 
 export const ProjectDataTitleStyled = styled.dt`
-  color: #333333;
+  color: ${(props) => props.theme.colorTextBlackTwo};
 `;
 
 export const ProjectDataDescriptionStyled = styled.dd`
   margin-bottom: 10px;
 
-  color: #757575;
+  color: ${(props) => props.theme.colorTextGray};
 `;
 
 export const ProjectLinksBlockStyled = styled.div`
@@ -72,5 +72,5 @@ export const ProjectLinksBlockStyled = styled.div`
   font-size: 24px;
   font-weight: 600;
   text-decoration: underline;
-  color: #333333;
+  color: ${(props) => props.theme.colorTextBlackTwo};
 `;

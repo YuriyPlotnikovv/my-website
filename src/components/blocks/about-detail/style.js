@@ -5,7 +5,7 @@ import arrow from '../../../assets/icons/icon-arrow.png';
 export const AboutDetailStyled = styled.section`
   display: block;
 
-  background-color: #fafafa;
+  background-color: ${(props) => props.theme.backgroundColorGray};
   box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
 `;
 
@@ -34,7 +34,7 @@ export const AboutDetailItemStyled = styled.div`
   margin: 5px;
   padding: 20px;
 
-  background-color: #ffffff;
+  background-color: ${(props) => props.theme.backgroundColor};
   border-radius: 10px;
   box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
 `;

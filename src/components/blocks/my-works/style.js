@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export const MyWorksStyled = styled.section`
   display: block;
 
-  background-color: #fafafa;
+  background-color: ${(props) => props.theme.backgroundColorGray};
   box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
 `;
 
@@ -26,7 +26,7 @@ export const MyWorksListStyled = styled.ul`
 export const MyWorksItemStyled = styled.li`
   padding: 0;
 
-  background-color: #fff;
+  background-color: ${(props) => props.theme.backgroundColor};
   border-radius: 10px;
   box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
   list-style-type: none;
@@ -47,7 +47,7 @@ export const MyWorksHeadingWrapperStyled = styled.div`
   width: max-content;
   margin: 0 auto;
 
-  color: #757575;
+  color: ${(props) => props.theme.colorTextGray};
 
   &::before {
     position: absolute;
@@ -58,7 +58,7 @@ export const MyWorksHeadingWrapperStyled = styled.div`
     width: 300px;
     height: 1px;
 
-    background-color: #ddd;
+    background-color: ${(props) => props.theme.backgroundColorGrayTwo};
 
     content: '';
   }
@@ -71,7 +71,7 @@ export const MyWorksHeadingWrapperStyled = styled.div`
     width: 300px;
     height: 1px;
 
-    background-color: #ddd;
+    background-color: ${(props) => props.theme.backgroundColorGrayTwo};
 
     content: '';
   }

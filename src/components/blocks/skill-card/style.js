@@ -8,7 +8,7 @@ export const SkillsCardStyled = styled.div`
 
   font-family: 'ProximaNova-LightIt';
 
-  background-color: #e6e6e6;
+  background-color: ${(props) => props.theme.backgroundColorGrayFour};
   border-radius: 10px 0 0 10px;
 `;
 

@@ -3,7 +3,7 @@ import { styled } from 'styled-components';
 export const MailStyled = styled.section`
   display: block;
 
-  background-color: #fafafa;
+  background-color: ${(props) => props.theme.backgroundColorGray};
   box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
 `;
 
@@ -30,7 +30,7 @@ export const MailHeadingWrapperStyled = styled.div`
     width: 300px;
     height: 1px;
 
-    background-color: #ddd;
+    background-color: ${(props) => props.theme.backgroundColorGrayTwo};
 
     content: '';
   }
@@ -43,7 +43,7 @@ export const MailHeadingWrapperStyled = styled.div`
     width: 300px;
     height: 1px;
 
-    background-color: #ddd;
+    background-color: ${(props) => props.theme.backgroundColorGrayTwo};
 
     content: '';
   }

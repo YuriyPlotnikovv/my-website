@@ -4,13 +4,13 @@ export const ContactsStyled = styled.main`
   display: flex;
   flex-direction: column;
 
-  color: #000;
+  color: ${(props) => props.theme.colorTextBlack};
 `;
 
 export const ContactsSectionStyled = styled.section`
   display: block;
 
-  background-color: #fafafa;
+  background-color: ${(props) => props.theme.backgroundColorGray};
   box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
 `;
 

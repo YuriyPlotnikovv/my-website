@@ -25,7 +25,7 @@ export const PhotoListStyled = styled.ul`
 export const PhotoItemStyled = styled.li`
   padding: 0;
 
-  background-color: #fff;
+  background-color: ${(props) => props.theme.backgroundColor};
   border-radius: 10px;
   box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
   list-style-type: none;

@@ -4,7 +4,7 @@ import arrow from '../../../assets/arrow.svg';
 export const MyWayStyled = styled.section`
   display: block;
 
-  background-color: #fff;
+  background-color: ${(props) => props.theme.backgroundColor};
   box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
 `;
 
@@ -34,10 +34,10 @@ export const MyWayItemStyled = styled.li`
   margin-left: ${(props) => (props.$id % 2 ? 'calc(100% - 500px)' : '50px')};
   padding: 0;
 
-  background-color: #e8e8e8;
+  background-color: ${(props) => props.theme.backgroundColorGrayThree};
   border-radius: 10px;
   box-shadow: ${(props) => (props.$id % 2 ? '3px' : '-3px')} 1px 4px 0px
-  rgba(0, 0, 0, 0.1)};
+    rgba(0, 0, 0, 0.1);
   list-style-type: none;
 `;
 
@@ -47,7 +47,7 @@ export const MyWayHeadingWrapperStyled = styled.div`
   width: max-content;
   margin: 0 auto;
 
-  color: #757575;
+  color: ${(props) => props.theme.colorTextGray};
 
   &::before {
     position: absolute;
@@ -58,7 +58,7 @@ export const MyWayHeadingWrapperStyled = styled.div`
     width: 300px;
     height: 1px;
 
-    background-color: #ddd;
+    background-color: ${(props) => props.theme.backgroundColorGrayTwo};
 
     content: '';
   }
@@ -71,7 +71,7 @@ export const MyWayHeadingWrapperStyled = styled.div`
     width: 300px;
     height: 1px;
 
-    background-color: #ddd;
+    background-color: ${(props) => props.theme.backgroundColorGrayTwo};
 
     content: '';
   }

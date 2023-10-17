@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export const PortfolioStyled = styled.section`
   display: block;
 
-  background-color: #fafafa;
+  background-color: ${(props) => props.theme.backgroundColorGray};
   box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
 `;
 
@@ -26,7 +26,7 @@ export const PortfolioListStyled = styled.ul`
 export const PortfolioItemStyled = styled.li`
   padding: 0;
 
-  background-color: #fff;
+  background-color: ${(props) => props.theme.backgroundColor};
   border-radius: 10px;
   box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
   list-style-type: none;

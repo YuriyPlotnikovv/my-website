@@ -4,5 +4,5 @@ export const SiteCardStyled = styled.main`
   display: flex;
   flex-direction: column;
 
-  color: #000;
+  color: ${(props) => props.theme.colorTextBlack};
 `;
