@@ -7,7 +7,7 @@ export default function Intro({ title, titleSize, textOne, textTwo, image, backg
       <IntroWrapperStyled $height={height} $image={image} $background={background}>
         <Title level='1' black size={titleSize}>{title}</Title>
         <IntroTextStyled $color='#757575' $size='26px'>{textOne}</IntroTextStyled>
-        <IntroTextStyled $color='#333' $size='18px'>{textTwo}</IntroTextStyled>
+        <IntroTextStyled $color='#333333' $size='18px'>{textTwo}</IntroTextStyled>
       </IntroWrapperStyled>
     </IntroStyled>
   )
