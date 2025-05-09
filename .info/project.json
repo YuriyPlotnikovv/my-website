@@ -1,0 +1,58 @@
+{
+  "id": 4,
+  "title-ru": "My website v.1.0",
+  "title-en": "My website v.1.0",
+  "textFirst-ru": "Проект на ReactJs",
+  "textFirst-en": "Project on ReactJs",
+  "textSecond-ru": "Проект моего личного сайта. Создавался для резюме как SPA-приложение, чтобы показать навыки и знания.",
+  "textSecond-en": "The project of my personal website. It was created for a resume as a SPA application to show skills and knowledge.",
+  "deploy": "https://yuriyplotnikovv-first-version.netlify.app/",
+  "features": [
+    {
+      "name-ru": "Страницы",
+      "name-en": "Pages",
+      "description-ru": [
+        "Главная",
+        "Обо мне",
+        "Портфолио",
+        "Контакты",
+        "Детальные страницы проектов"
+      ],
+      "description-en": [
+        "Main",
+        "About Me",
+        "Projects",
+        "Contacts",
+        "Detailed project pages"
+      ]
+    },
+    {
+      "name-ru": "Функциональность",
+      "name-en": "Functionality",
+      "description-ru": [
+        "Подключен слайдер",
+        "Данные передаются из data-файлов",
+        "Элементы отрисовываются по единым шаблонам"
+      ],
+      "description-en": [
+        "Slider connected",
+        "Data is transferred from data files",
+        "Elements are drawn using the same templates"
+      ]
+    },
+    {
+      "name-ru": "Не реализовано",
+      "name-en": "Not Implemented",
+      "description-ru": [
+        "Адаптивность под разные устройства",
+        "Анимации",
+        "Форма отправки сообщения на почту"
+      ],
+      "description-en": [
+        "Adaptability to different devices",
+        "Animations",
+        "Message sending form"
+      ]
+    }
+  ]
+}
